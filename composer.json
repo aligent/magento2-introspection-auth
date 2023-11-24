@@ -3,6 +3,7 @@
   "description": "Restricts introspection GraphQL queries to authorised users",
   "type": "magento2-module",
   "require": {
+    "php": "~8.1.0|~8.2.0",
     "magento/framework": "*"
   },
   "license": [
