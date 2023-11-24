@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+  ~ @author Aligent Consulting Team
+  ~ @copyright Copyright (c) 2023 Aligent Consulting. (http://www.aligent.com.au)
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="system">
+            <group id="security">
+                <field id="introspection_auth" type="select" translate="label comment" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Enable Introspection Authorisation</label>
+                    <comment>When introspection is enabled, only allow authorised users to perform queries.</comment>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
