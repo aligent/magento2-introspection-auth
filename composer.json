@@ -1,0 +1,19 @@
+{
+  "name": "aligent/magento2-introspection-auth",
+  "description": "Restricts introspection GraphQL queries to authorised users",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "*"
+  },
+  "license": [
+    "GPL-3.0-only"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Aligent\\IntrospectionAuth\\": ""
+    }
+  }
+}
